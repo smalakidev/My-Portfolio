@@ -6,4 +6,13 @@
     
 }
 
-p {font}
+
+/* The HTML Class was matched with the CSS Specifications below*/ 
+.footerinfo {
+    width: 100%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    position: absolute;
+    bottom: 0;
+  }
