@@ -10,17 +10,23 @@
 /* The HTML Class was matched with the CSS Specifications below*/ 
 .footerinfo {
     width: 100%;
+    text-align: center;
     border: 15px solid green;
     padding: 50px;
     margin: 20px;
     position: absolute;
     bottom: 0;
+    left: 0;
   }
-/*Styling for h2 on the main page with my background info and picture*/ 
+
+  /*Styling for h2 on the main page with my background info and picture*/ 
   h2 {text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
-body {background-color: beige
+body {
+  background-color: beige;
 }
+
+
