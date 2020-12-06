@@ -6,14 +6,17 @@
     
 }
 
+.container{
 
-/* The HTML Class was matched with the CSS Specifications below*/ 
+}
+
+/* The HTML footer divClass was matched with the CSS Specifications below. Left 0 and bottom 0 was added*/ 
 .footerinfo {
     width: 100%;
     text-align: center;
     border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+    padding: 0.5rem 1rem;
+    font-style: oblique;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -30,3 +33,9 @@ body {
 }
 
 
+.wrappingimage {
+  
+float: left; 
+margin: 30px 12px 3px 4px; 
+border: 2px solid blue;
+    } 
