@@ -14,7 +14,7 @@
 .footerinfo {
     width: 100%;
     text-align: center;
-    border: 15px solid green;
+    border: 15px solid;
     padding: 0.5rem 1rem;
     font-style: oblique;
     position: absolute;
@@ -25,17 +25,42 @@
   /*Styling for h2 on the main page with my background info and picture*/ 
   h2 {text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
+    
 
 }
 
 body {
-  background-color: beige;
+  /* background-color: beige; */
+  background: url(night.jpg);
+  /* https://pixabay.com/illustrations/night-forest-glowworm-light-3078326/ */
+  color: white;
 }
 
+#contContent{
+  height: 100%;
+}
+#about{
+  display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
 
-.wrappingimage {
+.wrapingimage {
   
 float: left; 
-margin: 30px 12px 3px 4px; 
-border: 2px solid blue;
+/* margin: 30px 12px 3px 4px; 
+border: 2px solid blue; */
+background: rgba(12, 11, 87, 0.8);
+padding: 10px;
     } 
+
+   #profile-pic{
+     float: left;
+     margin-right: 10px
+   }
+
+
+h1{ 
+  color:black ;
+
+}
