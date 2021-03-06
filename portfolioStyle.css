@@ -1,0 +1,16 @@
+.row{
+    margin-top: 20px;
+}
+
+.description {
+    background-color: blue;
+    color: white;
+    /* opacity: 0.4; */
+}
+
+h1{
+   color: white; 
+}
+a {
+    color: white;
+}
